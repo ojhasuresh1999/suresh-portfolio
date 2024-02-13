@@ -5,9 +5,13 @@ const nextConfig = {
     // loader: "custom",
     // loaderFile: "./loader.js",
     remotePatterns: [
+      // {
+      //   protocol: "https",
+      //   hostname: "images.pexels.com",
+      // },
       {
         protocol: "https",
-        hostname: "images.pexels.com",
+        hostname: "res.cloudinary.com",
       },
     ],
   },
